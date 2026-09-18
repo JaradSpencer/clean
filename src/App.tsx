@@ -30,7 +30,7 @@ function App() {
         <Header />
       </>
 
-      <main class="main-content">
+      <main className="main-content">
         <Left />
 
         <h1>My List</h1>

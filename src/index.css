@@ -9,11 +9,18 @@ body {
   align-items: center;
 }
 
+
+body {
+  display: flex;
+  flex-direction: row;
+  align-items:space-evenly;
+}
 main {
   display: flex;
   flex-direction: column;
   align-items: stretch;
 }
+
 
 button {
   border-radius: 8px;
@@ -62,4 +69,105 @@ li:hover {
 a {
   font-weight: 800;
   text-decoration: none;
+}
+.header {
+
+    width: 100vw;
+    height: 10vh; 
+    margin-bottom:10px;
+    background-color: #1e1e2f;
+    opacity:50%;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    position: fixed; 
+    left: 0;
+    top: 0;
+}
+.main{
+    width: 100vw;
+    height: 80vh; 
+    margin-bottom:10px;
+    background-color: #1e1e2f;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    position: relative; 
+    left: 0;
+    top: 10;
+    border:8px solid black;
+}
+
+/* 2. Sidebar Core Container */
+.sidebar {
+    display:flex;
+    justify-content:flex-start;
+    width: 15vw;
+    height: 100vh; /* Extends sidebar down the entire screen height */
+    background-color: #1e1e2f;
+    opacity:50%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    position: fixed; /* Pin it to the left wall */
+    left: 0;
+    top: 10vh;
+}
+
+
+
+.sidebar-menu {
+    list-style: none;
+    padding: 20px 0;
+}
+.sidebar-menu li {
+    width: 100%;
+}
+
+.sidebar-menu a {
+    display: flex;
+    padding: 14px 24px;
+    color: #b3b3cc;
+    text-decoration: none;
+    font-size: 16px;
+    transition: all 0.3s ease; /* Fluid hover transition */
+}
+
+/* Active and Hover Interaction Mechanics */
+.sidebar-menu a:hover, 
+.sidebar-menu a.active {
+    color: #fff;
+    background-color: #34344d;
+    padding-left: 32px; /* Slight indentation push effect on hover */
+    border-left: 4px solid #4f46e5; /* Distinct color accent bar */
+}
+
+.main-content {
+    margin-left: 15vw; /* Crucial: Matches sidebar width so elements do not overlap */
+    padding: 40px;
+    flex-grow: 1; /* Automatically consumes remaining browser width */
+}
+.logo{
+    display:flex;
+    width:25vW;
+    @media (max-width: 25vW) {
+    
+    margin: 20px 0;
+  }
+
+
+}
+.footer {
+
+    width: 100vw;
+    height: 10vh; 
+    margin-bottom:10px;
+    background-color: #1e1e2f;
+    opacity:50%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    position: fixed; 
+    left: 0;
+    top: 90vh;
 }

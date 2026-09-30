@@ -5,7 +5,7 @@
 import Header from './components/Header'
 import Footer from './components/Footer'
 import Left from './components/LeftNav'
-
+import Right from './components/Speech'
 
 
 function App() {
@@ -24,7 +24,7 @@ function App() {
        
 
 
-
+        <Right/>
       </main>
       <Footer />
     </body>

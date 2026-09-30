@@ -159,7 +159,20 @@ a {
     border-left: 4px solid #4f46e5; /* Distinct color accent bar */
 }
 
-
+.speech {
+    display:flex;
+    justify-content:flex-start;
+    width: 5vw;
+    height: 100vh;
+    background-color: #1e1e2f;
+    opacity:50%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    position: fixed; /* Pin it to the left wall */
+    left: 95vw;
+    top: 10vh;
+}
 .footer {
     width: 100vw;
     height: 10vh; 

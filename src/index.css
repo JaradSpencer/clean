@@ -173,6 +173,24 @@ a {
     left: 95vw;
     top: 10vh;
 }
+.speech-text{
+   display:flex;
+  justify-content:flex-start;
+  width: 25vw;
+  height: 20vh;
+  display: flex;
+  flex-direction: column; 
+
+}
+.speech-slider{
+  display:flex;
+  justify-content:flex-start;
+  width: 25vw;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  
+}
 .footer {
     width: 100vw;
     height: 10vh; 

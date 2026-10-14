@@ -174,7 +174,7 @@ a {
     top: 10vh;
 }
 .speech-text{
-   display:flex;
+  display:flex;
   justify-content:flex-start;
   width: 25vw;
   height: 20vh;
@@ -189,6 +189,16 @@ a {
   height: 50vh;
   display: flex;
   flex-direction: column;
+  
+}
+.speech-mute{
+  display:flex;
+  justify-content:flex-end;
+  width: 25vw;
+  height: 5vh;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
   
 }
 .footer {

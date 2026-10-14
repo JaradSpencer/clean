@@ -12,7 +12,7 @@ export default function Speech() {
                 
                 <Slider defaultValue={30} aria-label="Slider" orientation="vertical"/>
             </div>
-            <button>Mute</button>
+            <button className="speech-mute">Mute</button>
         </nav>
         </>
     )

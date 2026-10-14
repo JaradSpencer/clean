@@ -8,11 +8,4 @@
 
 
 
-.SpeechSlider{
-  display:flex;
-  justify-content:flex-start;
-  width: 5vw;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
+

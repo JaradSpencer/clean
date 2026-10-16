@@ -12,6 +12,14 @@ This template equips you with a foundational React application integrated with A
 - **API**: Ready-to-use GraphQL endpoint with AWS AppSync.
 - **Database**: Real-time database powered by Amazon DynamoDB.
 
+## Local development
+
+Install dependencies and start the frontend with `npm install` and `npm run dev`.
+To use the Amplify backend locally, configure AWS credentials and run
+`npx ampx sandbox`. This generates the ignored `amplify_outputs.json` file used
+to configure Amplify. Without that file, the frontend still starts, but backend
+features are not configured.
+
 ## Deploying to AWS
 
 For detailed instructions on deploying your application, refer to the [deployment section](https://docs.amplify.aws/react/start/quickstart/#deploy-a-fullstack-app-to-aws) of our documentation.
